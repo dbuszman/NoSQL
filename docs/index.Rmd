@@ -1,0 +1,14 @@
+---
+title: "Technologie NoSQL"
+author: Dariusz Buszman
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Lista zadań:
+
+1. [Zadanie GEO](geo.md) - prezentowanie zbioru przystanków tramwajowych w Polsce (na bazie openstreetmap.org)
+
