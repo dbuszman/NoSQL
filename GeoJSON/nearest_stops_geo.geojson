@@ -1,0 +1,142 @@
+[
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5717146,
+				54.3957288
+			]
+		},
+		"properties" : {
+			"name" : "\"Uniwersytet\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5716655,
+				54.3957165
+			]
+		},
+		"properties" : {
+			"name" : "\"Uniwersytet\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5686061,
+				54.3988472
+			]
+		},
+		"properties" : {
+			"name" : "\"Bażyńskiego\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5680839,
+				54.399385
+			]
+		},
+		"properties" : {
+			"name" : "\"Bażyńskiego\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5776149,
+				54.3911985
+			]
+		},
+		"properties" : {
+			"name" : "\"Strzyża PKM\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5776677,
+				54.3911956
+			]
+		},
+		"properties" : {
+			"name" : "\"Strzyża PKM\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5781857,
+				54.3911187
+			]
+		},
+		"properties" : {
+			"name" : "\"Strzyża PKM\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5787749,
+				54.3908256
+			]
+		},
+		"properties" : {
+			"name" : "\"Strzyża PKM\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5656803,
+				54.4027016
+			]
+		},
+		"properties" : {
+			"name" : "\"Tetmajera\"",
+			"type" : " tram_stop"
+		}
+	},
+	{
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5656167,
+				54.4026988
+			]
+		},
+		"properties" : {
+			"name" : "\"Tetmajera\"",
+			"type" : " tram_stop"
+		}
+	}
+]

@@ -7,11 +7,9 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ## Przedstawienie danych
-***
 
 ## Przystanki tramwajowe w Polsce
 Prezentowany zbiór zawiera 3783 przystanki tramwajowe znajdujące się na terenie Polski.
-***
 
 ```json
 {
@@ -29,5 +27,78 @@ Prezentowany zbiór zawiera 3783 przystanki tramwajowe znajdujące się na teren
 ```
 
 ## Mapa
+Prezentacja całego zbioru danych na mapie:
 
 <script src="https://embed.github.com/view/geojson/dbuszman/NoSQL/master/GeoJSON/tram_stop_geo.geojson"></script>
+
+## Obsługa w MongoDB
+Importowanie danych geojson:
+
+```sh
+mongod.exe
+
+mongoimport.exe --drop -d test -c tramStops --jsonArray < tram_stop_geo.geojson"
+```
+
+Dodanie indeksów:
+
+```sh
+db.tramStops.ensureIndex({"geometry" : "2dsphere"})
+```
+
+Przykładowe dane po zaimportowaniu:
+
+```sh
+db.tramStops.findOne()
+```
+
+```json
+{
+        "_id" : ObjectId("58db2128414dd20a21a927a1"),
+        "type" : "Feature",
+        "geometry" : {
+                "type" : "Point",
+                "coordinates" : [
+                        16.9168807,
+                        52.4639683
+                ]
+        },
+        "properties" : {
+                "id" : 27308502,
+                "name" : "\"Os. Sobieskiego\"",
+                "type" : " tram_stop"
+        }
+}
+```
+
+Usunięcie pola id wewnątrz properties:
+
+```sh
+db.tramStops.updateMany({type: "Feature"}, {$unset: {"properties.id":""}})
+```
+
+Wyszukuję 10 przystanków tramwajowych, które znajdują się najbliżej środka Wydziału Matematyki, Fizyki i Informatyki, Uniwersytetu Gdańskiego
+
+współrzędne (54° 23’ 45.2292” N, 18° 34’ 23.1852” E)
+
+W pliku find_nearest_stops_command.js zapisuję następującą komendę:
+
+```sh
+printjson( db.tramStops.find({ "geometry": {$near: {$geometry: {type: "Point", coordinates: [18.573107, 54.395897]}}}}, {_id: 0}).limit(10).toArray() )
+```
+
+A następnie ją wywołuję, zapisująć wynik w pliku nearest_stops.json:
+
+```sh
+mongo.exe test find_nearest_stops_command.js > nearest_stops.json
+```
+
+Przekształcam plik .json w plik .geojson
+
+```sh
+type nearest_stops.json | findstr /v MongoDB | findstr /v mongo > nearest_stops_geo.geojson
+```
+
+Przedstawienie wyniku na mapie:
+
+<script src="https://embed.github.com/view/geojson/dbuszman/NoSQL/master/GeoJSON/nearest_stops_geo.geojson"></script>
