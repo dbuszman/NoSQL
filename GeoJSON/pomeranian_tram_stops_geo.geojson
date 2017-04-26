@@ -1,0 +1,3877 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aa4c"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.565655,
+				54.413826
+			]
+		},
+		"properties" : {
+			"name" : "Opacka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aa4b"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5655898,
+				54.4137429
+			]
+		},
+		"properties" : {
+			"name" : "Opacka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3af16"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5734842,
+				54.416762
+			]
+		},
+		"properties" : {
+			"name" : "Subisława",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a868"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5734268,
+				54.4167747
+			]
+		},
+		"properties" : {
+			"name" : "Subisława",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b21c"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5778983,
+				54.4182658
+			]
+		},
+		"properties" : {
+			"name" : "Pomorska Osiedle",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b21b"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.577513,
+				54.4180998
+			]
+		},
+		"properties" : {
+			"name" : "Pomorska Osiedle",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5879582,
+				54.4119221
+			]
+		},
+		"properties" : {
+			"name" : "Jagiellońska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5877954,
+				54.4125541
+			]
+		},
+		"properties" : {
+			"name" : "Jagiellońska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5870261,
+				54.4156213
+			]
+		},
+		"properties" : {
+			"name" : "Piastowska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5867374,
+				54.4163655
+			]
+		},
+		"properties" : {
+			"name" : "Piastowska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a869"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5926845,
+				54.4232359
+			]
+		},
+		"properties" : {
+			"name" : "Jelitkowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b23b"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5927288,
+				54.4231923
+			]
+		},
+		"properties" : {
+			"name" : "Jelitkowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5926417,
+				54.4232789
+			]
+		},
+		"properties" : {
+			"name" : "Jelitkowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.592591,
+				54.4233225
+			]
+		},
+		"properties" : {
+			"name" : "Jelitkowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b210"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5918357,
+				54.4233618
+			]
+		},
+		"properties" : {
+			"name" : "Jelitkowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20d"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5885614,
+				54.4216585
+			]
+		},
+		"properties" : {
+			"name" : "Helska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5848115,
+				54.4205052
+			]
+		},
+		"properties" : {
+			"name" : "Osiedle Wejhera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.584123,
+				54.4203235
+			]
+		},
+		"properties" : {
+			"name" : "Osiedle Wejhera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1eb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5840657,
+				54.4196547
+			]
+		},
+		"properties" : {
+			"name" : "Pomorska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ea"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5844541,
+				54.4192822
+			]
+		},
+		"properties" : {
+			"name" : "Pomorska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b21a"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5822883,
+				54.4197374
+			]
+		},
+		"properties" : {
+			"name" : "Gospody",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20c"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5880128,
+				54.421525
+			]
+		},
+		"properties" : {
+			"name" : "Helska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ef"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5887662,
+				54.4089663
+			]
+		},
+		"properties" : {
+			"name" : "Chłopska - Obrońców Wybrzeża",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ee"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5891898,
+				54.4080547
+			]
+		},
+		"properties" : {
+			"name" : "Chłopska - Obrońców Wybrzeża",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a867"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6322628,
+				54.4084384
+			]
+		},
+		"properties" : {
+			"name" : "Mazurska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6273062,
+				54.4085309
+			]
+		},
+		"properties" : {
+			"name" : "Brzeźno Plaża",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8ec"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6285111,
+				54.4090414
+			]
+		},
+		"properties" : {
+			"name" : "Wczasy",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6247273,
+				54.4049001
+			]
+		},
+		"properties" : {
+			"name" : "Dworska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b254"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6224304,
+				54.4016623
+			]
+		},
+		"properties" : {
+			"name" : "Al. Hallera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b255"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6230793,
+				54.4026778
+			]
+		},
+		"properties" : {
+			"name" : "Al. Hallera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1bd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6240462,
+				54.4040271
+			]
+		},
+		"properties" : {
+			"name" : "Dworska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b256"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.63114,
+				54.4025329
+			]
+		},
+		"properties" : {
+			"name" : "Gdańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b259"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6345272,
+				54.4046844
+			]
+		},
+		"properties" : {
+			"name" : "Sternicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b221"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6391058,
+				54.4072145
+			]
+		},
+		"properties" : {
+			"name" : "Brzeźno",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b225"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6384964,
+				54.407325
+			]
+		},
+		"properties" : {
+			"name" : "Brzeźno",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b226"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6380719,
+				54.4073404
+			]
+		},
+		"properties" : {
+			"name" : "Brzeźno",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b123"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6443132,
+				54.4061611
+			]
+		},
+		"properties" : {
+			"name" : "Krasickiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b224"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6436964,
+				54.4063569
+			]
+		},
+		"properties" : {
+			"name" : "Krasickiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b228"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6559482,
+				54.4047041
+			]
+		},
+		"properties" : {
+			"name" : "Latarnia Morska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b227"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6552227,
+				54.4046293
+			]
+		},
+		"properties" : {
+			"name" : "Latarnia Morska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b3cc"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6614066,
+				54.4039564
+			]
+		},
+		"properties" : {
+			"name" : "Kasztanowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b3cb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6611769,
+				54.4040847
+			]
+		},
+		"properties" : {
+			"name" : "Kasztanowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8fd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6663759,
+				54.3984609
+			]
+		},
+		"properties" : {
+			"name" : "Marynarki Polskiej",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22c"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6662865,
+				54.3984524
+			]
+		},
+		"properties" : {
+			"name" : "Marynarki Polskiej",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22a"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.670231,
+				54.3989795
+			]
+		},
+		"properties" : {
+			"name" : "Plac Wolności",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b248"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6709981,
+				54.4000499
+			]
+		},
+		"properties" : {
+			"name" : "Nowy Port (Góreckiego)",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b241"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6696818,
+				54.4022305
+			]
+		},
+		"properties" : {
+			"name" : "Przychodnia",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b242"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6646282,
+				54.4014119
+			]
+		},
+		"properties" : {
+			"name" : "Na Zaspę",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b243"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6655568,
+				54.4026721
+			]
+		},
+		"properties" : {
+			"name" : "Rybołowców",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b3ca"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6755173,
+				54.4012743
+			]
+		},
+		"properties" : {
+			"name" : "Nowy Port (Oliwska)",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b244"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6743238,
+				54.39871
+			]
+		},
+		"properties" : {
+			"name" : "Władysława IV",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b152"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6732301,
+				54.3979699
+			]
+		},
+		"properties" : {
+			"name" : "Zajezdnia Nowy Port",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8d2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7281134,
+				54.3730741
+			]
+		},
+		"properties" : {
+			"name" : "Stogi Plaża",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b230"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7286338,
+				54.3725223
+			]
+		},
+		"properties" : {
+			"name" : "Stogi Plaża",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1fa"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7040904,
+				54.3628641
+			]
+		},
+		"properties" : {
+			"name" : "Lessowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8d4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7041081,
+				54.3628911
+			]
+		},
+		"properties" : {
+			"name" : "Lessowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f7"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6994023,
+				54.3632405
+			]
+		},
+		"properties" : {
+			"name" : "Kaczeńce",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a7c5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6986355,
+				54.3629887
+			]
+		},
+		"properties" : {
+			"name" : "Kaczeńce",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b206"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7085241,
+				54.3607015
+			]
+		},
+		"properties" : {
+			"name" : "Zimna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b207"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.710011,
+				54.3607037
+			]
+		},
+		"properties" : {
+			"name" : "Zimna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b201"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7146785,
+				54.3614004
+			]
+		},
+		"properties" : {
+			"name" : "Stogi Pasanil",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8d3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7154956,
+				54.3622992
+			]
+		},
+		"properties" : {
+			"name" : "Stogi Pasanil",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22f"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7157317,
+				54.3630441
+			]
+		},
+		"properties" : {
+			"name" : "Rozłogi",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1fe"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7156852,
+				54.3630471
+			]
+		},
+		"properties" : {
+			"name" : "Rozłogi",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3abaf"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.7133436,
+				54.3570197
+			]
+		},
+		"properties" : {
+			"name" : "Tramwaj wodny \"ul. Tamka\"",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6824833,
+				54.3572948
+			]
+		},
+		"properties" : {
+			"name" : "Przeróbka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6830293,
+				54.3574815
+			]
+		},
+		"properties" : {
+			"name" : "Przeróbka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeee"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6716139,
+				54.3521874
+			]
+		},
+		"properties" : {
+			"name" : "Głęboka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8d6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6715739,
+				54.3522011
+			]
+		},
+		"properties" : {
+			"name" : "Głęboka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8a9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6908572,
+				54.35982
+			]
+		},
+		"properties" : {
+			"name" : "Sucharskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b202"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6908785,
+				54.3597911
+			]
+		},
+		"properties" : {
+			"name" : "Sucharskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6866298,
+				54.3578262
+			]
+		},
+		"properties" : {
+			"name" : "Lenartowicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8d5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6868018,
+				54.3579508
+			]
+		},
+		"properties" : {
+			"name" : "Lenartowicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22d"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.657302,
+				54.3919211
+			]
+		},
+		"properties" : {
+			"name" : "Śnieżna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8fc"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6576441,
+				54.3922287
+			]
+		},
+		"properties" : {
+			"name" : "Śnieżna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b229"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6489972,
+				54.3873849
+			]
+		},
+		"properties" : {
+			"name" : "Stadion Energa Gdańsk",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeba"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6489712,
+				54.3874142
+			]
+		},
+		"properties" : {
+			"name" : "Stadion Energa Gdańsk",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeb9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6447674,
+				54.3857299
+			]
+		},
+		"properties" : {
+			"name" : "Mostostal",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6450717,
+				54.3858141
+			]
+		},
+		"properties" : {
+			"name" : "Mostostal",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ff"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6340713,
+				54.3716587
+			]
+		},
+		"properties" : {
+			"name" : "Stocznia Północna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b200"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6337749,
+				54.3719894
+			]
+		},
+		"properties" : {
+			"name" : "Stocznia Północna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6336712,
+				54.3668123
+			]
+		},
+		"properties" : {
+			"name" : "Uniwersytet Medyczny",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3abf3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6336208,
+				54.3667948
+			]
+		},
+		"properties" : {
+			"name" : "Uniwersytet Medyczny",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8ff"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6426475,
+				54.3646603
+			]
+		},
+		"properties" : {
+			"name" : "Stocznia SKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6477421,
+				54.3605579
+			]
+		},
+		"properties" : {
+			"name" : "Plac Solidarności",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a855"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6477074,
+				54.3605156
+			]
+		},
+		"properties" : {
+			"name" : "Plac Solidarności",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab8f"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6455226,
+				54.3553643
+			]
+		},
+		"properties" : {
+			"name" : "Dworzec Główny",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab8e"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6455763,
+				54.3553643
+			]
+		},
+		"properties" : {
+			"name" : "Dworzec Główny",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a856"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6434162,
+				54.3566863
+			]
+		},
+		"properties" : {
+			"name" : "Dworzec PKS",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aecc"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6433679,
+				54.3566735
+			]
+		},
+		"properties" : {
+			"name" : "Dworzec PKS",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6432814,
+				54.364169
+			]
+		},
+		"properties" : {
+			"name" : "Stocznia SKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeca"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6415918,
+				54.3620888
+			]
+		},
+		"properties" : {
+			"name" : "Brama Oliwska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a740"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6415532,
+				54.3620657
+			]
+		},
+		"properties" : {
+			"name" : "Brama Oliwska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8a1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6383444,
+				54.3639912
+			]
+		},
+		"properties" : {
+			"name" : "Chodowieckiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aecb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6383914,
+				54.3640076
+			]
+		},
+		"properties" : {
+			"name" : "Chodowieckiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b220"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6359728,
+				54.3510855
+			]
+		},
+		"properties" : {
+			"name" : "Powstańców Warszawskich",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b218"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6296835,
+				54.3499888
+			]
+		},
+		"properties" : {
+			"name" : "Paska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b219"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6304071,
+				54.3501101
+			]
+		},
+		"properties" : {
+			"name" : "Paska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b214"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6259485,
+				54.3454275
+			]
+		},
+		"properties" : {
+			"name" : "Odrzańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1a4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6260562,
+				54.3453967
+			]
+		},
+		"properties" : {
+			"name" : "Odrzańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b217"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6247964,
+				54.3491738
+			]
+		},
+		"properties" : {
+			"name" : "Ciasna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b216"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.624068,
+				54.349087
+			]
+		},
+		"properties" : {
+			"name" : "Ciasna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6192433,
+				54.348809
+			]
+		},
+		"properties" : {
+			"name" : "Zakopiańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.618457,
+				54.3488019
+			]
+		},
+		"properties" : {
+			"name" : "Zakopiańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b213"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6176705,
+				54.3419461
+			]
+		},
+		"properties" : {
+			"name" : "Chałubińskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b212"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6177436,
+				54.3415117
+			]
+		},
+		"properties" : {
+			"name" : "Chałubińskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1d4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6099663,
+				54.3382311
+			]
+		},
+		"properties" : {
+			"name" : "Cieszyńskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1d5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6105519,
+				54.3381752
+			]
+		},
+		"properties" : {
+			"name" : "Cieszyńskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1dd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6171543,
+				54.3370995
+			]
+		},
+		"properties" : {
+			"name" : "Chełm Witosa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1de"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6172042,
+				54.3371499
+			]
+		},
+		"properties" : {
+			"name" : "Chełm Witosa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1df"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6177477,
+				54.337748
+			]
+		},
+		"properties" : {
+			"name" : "Chełm Witosa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6184913,
+				54.3384761
+			]
+		},
+		"properties" : {
+			"name" : "Sikorskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1e0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6184663,
+				54.3388203
+			]
+		},
+		"properties" : {
+			"name" : "Sikorskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afca"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6371202,
+				54.3486654
+			]
+		},
+		"properties" : {
+			"name" : "Pohulanka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afcb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6363412,
+				54.3486434
+			]
+		},
+		"properties" : {
+			"name" : "Pohulanka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6366652,
+				54.3511156
+			]
+		},
+		"properties" : {
+			"name" : "Powstańców Warszawskich",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b21e"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6423314,
+				54.3526483
+			]
+		},
+		"properties" : {
+			"name" : "Nowe Ogrody",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b21d"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6421896,
+				54.3520746
+			]
+		},
+		"properties" : {
+			"name" : "Nowe Ogrody",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab90"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6455637,
+				54.3518496
+			]
+		},
+		"properties" : {
+			"name" : "Hucisko",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab91"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6452404,
+				54.3518863
+			]
+		},
+		"properties" : {
+			"name" : "Hucisko",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeeb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.64615,
+				54.350565
+			]
+		},
+		"properties" : {
+			"name" : "Brama Wyżynna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a850"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6460407,
+				54.3504199
+			]
+		},
+		"properties" : {
+			"name" : "Brama Wyżynna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.644157,
+				54.3477433
+			]
+		},
+		"properties" : {
+			"name" : "Śródmieście SKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6441567,
+				54.3477071
+			]
+		},
+		"properties" : {
+			"name" : "Śródmieście SKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeef"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6466341,
+				54.3475186
+			]
+		},
+		"properties" : {
+			"name" : "Okopowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a851"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.64668,
+				54.3475475
+			]
+		},
+		"properties" : {
+			"name" : "Okopowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeed"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6575951,
+				54.3453447
+			]
+		},
+		"properties" : {
+			"name" : "Chmielna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a853"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6570763,
+				54.3454629
+			]
+		},
+		"properties" : {
+			"name" : "Chmielna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aef2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6520839,
+				54.3464098
+			]
+		},
+		"properties" : {
+			"name" : "Żabi Kruk",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a852"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6514455,
+				54.3466237
+			]
+		},
+		"properties" : {
+			"name" : "Żabi Kruk",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeea"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6644249,
+				54.3446227
+			]
+		},
+		"properties" : {
+			"name" : "Akademia Muzyczna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a7c6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.664253,
+				54.344628
+			]
+		},
+		"properties" : {
+			"name" : "Akademia Muzyczna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeec"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.669468,
+				54.3478036
+			]
+		},
+		"properties" : {
+			"name" : "Brama Żuławska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a7c7"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6693846,
+				54.3477441
+			]
+		},
+		"properties" : {
+			"name" : "Brama Żuławska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b215"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6067104,
+				54.3230851
+			]
+		},
+		"properties" : {
+			"name" : "Łostowice Świętokrzyska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab9d"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6056362,
+				54.3224515
+			]
+		},
+		"properties" : {
+			"name" : "Łostowice Świętokrzyska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5989003,
+				54.3288233
+			]
+		},
+		"properties" : {
+			"name" : "Płocka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.598662,
+				54.329113
+			]
+		},
+		"properties" : {
+			"name" : "Płocka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afbf"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.596371,
+				54.3330699
+			]
+		},
+		"properties" : {
+			"name" : "Przemyska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afc3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5964147,
+				54.3333744
+			]
+		},
+		"properties" : {
+			"name" : "Przemyska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afb4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5989366,
+				54.3364243
+			]
+		},
+		"properties" : {
+			"name" : "Wilanowska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b157"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5993515,
+				54.3367916
+			]
+		},
+		"properties" : {
+			"name" : "Wilanowska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b317"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5776505,
+				54.3601536
+			]
+		},
+		"properties" : {
+			"name" : "Kolumba",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b316"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5773809,
+				54.3604338
+			]
+		},
+		"properties" : {
+			"name" : "Kolumba",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b238"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5787216,
+				54.356086
+			]
+		},
+		"properties" : {
+			"name" : "Budapesztańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b237"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5787662,
+				54.3560334
+			]
+		},
+		"properties" : {
+			"name" : "Budapesztańska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b209"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5757448,
+				54.3524306
+			]
+		},
+		"properties" : {
+			"name" : "Migowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20a"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5761223,
+				54.3527903
+			]
+		},
+		"properties" : {
+			"name" : "Migowo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b239"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5831774,
+				54.357667
+			]
+		},
+		"properties" : {
+			"name" : "Warneńska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b23a"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.581974,
+				54.3576987
+			]
+		},
+		"properties" : {
+			"name" : "Warneńska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b311"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5921411,
+				54.3515522
+			]
+		},
+		"properties" : {
+			"name" : "Piekarnicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b312"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5921756,
+				54.3515685
+			]
+		},
+		"properties" : {
+			"name" : "Piekarnicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b314"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.588347,
+				54.355733
+			]
+		},
+		"properties" : {
+			"name" : "Belgradzka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b313"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5883145,
+				54.355724
+			]
+		},
+		"properties" : {
+			"name" : "Belgradzka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afb2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6049819,
+				54.3384515
+			]
+		},
+		"properties" : {
+			"name" : "Cebertowicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3afb3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6056578,
+				54.3383904
+			]
+		},
+		"properties" : {
+			"name" : "Cebertowicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b232"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6129812,
+				54.3490074
+			]
+		},
+		"properties" : {
+			"name" : "Skrajna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b231"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6123178,
+				54.3490728
+			]
+		},
+		"properties" : {
+			"name" : "Skrajna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b234"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6070481,
+				54.3481142
+			]
+		},
+		"properties" : {
+			"name" : "Siedlce",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b233"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.606505,
+				54.3482885
+			]
+		},
+		"properties" : {
+			"name" : "Siedlce",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b235"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6072114,
+				54.3483448
+			]
+		},
+		"properties" : {
+			"name" : "Siedlce",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20b"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6068356,
+				54.3782018
+			]
+		},
+		"properties" : {
+			"name" : "Jaśkowa Dolina",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3ab85"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6061843,
+				54.3785278
+			]
+		},
+		"properties" : {
+			"name" : "Jaśkowa Dolina",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5c3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6151527,
+				54.3757843
+			]
+		},
+		"properties" : {
+			"name" : "Miszewskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aecf"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6152462,
+				54.3758086
+			]
+		},
+		"properties" : {
+			"name" : "Miszewskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6235133,
+				54.376468
+			]
+		},
+		"properties" : {
+			"name" : "Wyspiańskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aec4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.623565,
+				54.3764725
+			]
+		},
+		"properties" : {
+			"name" : "Wyspiańskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aec5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6263757,
+				54.3753923
+			]
+		},
+		"properties" : {
+			"name" : "Kliniczna - Szpital",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6263743,
+				54.3753579
+			]
+		},
+		"properties" : {
+			"name" : "Kliniczna - Szpital",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6214115,
+				54.3740245
+			]
+		},
+		"properties" : {
+			"name" : "Politechnika",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b085"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6214827,
+				54.3740237
+			]
+		},
+		"properties" : {
+			"name" : "Politechnika",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a9e8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6247091,
+				54.3720707
+			]
+		},
+		"properties" : {
+			"name" : "Opera Bałtycka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b0e2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6247423,
+				54.3720908
+			]
+		},
+		"properties" : {
+			"name" : "Opera Bałtycka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b0e3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6248077,
+				54.3721306
+			]
+		},
+		"properties" : {
+			"name" : "Opera Bałtycka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed0"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6297609,
+				54.3691197
+			]
+		},
+		"properties" : {
+			"name" : "Traugutta",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3abf4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6297261,
+				54.3691043
+			]
+		},
+		"properties" : {
+			"name" : "Traugutta",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b203"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6312508,
+				54.3744754
+			]
+		},
+		"properties" : {
+			"name" : "Twarda",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a854"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6311265,
+				54.3742233
+			]
+		},
+		"properties" : {
+			"name" : "Twarda",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b204"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6305716,
+				54.3763688
+			]
+		},
+		"properties" : {
+			"name" : "Węzeł Kliniczna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b205"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6308076,
+				54.3766966
+			]
+		},
+		"properties" : {
+			"name" : "Węzeł Kliniczna",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22b"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.63457,
+				54.3796504
+			]
+		},
+		"properties" : {
+			"name" : "Swojska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8fb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6331186,
+				54.3787166
+			]
+		},
+		"properties" : {
+			"name" : "Swojska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b0e5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6224769,
+				54.3789659
+			]
+		},
+		"properties" : {
+			"name" : "Reja",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8ed"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6225269,
+				54.3789706
+			]
+		},
+		"properties" : {
+			"name" : "Reja",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b112"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.638346,
+				54.3823136
+			]
+		},
+		"properties" : {
+			"name" : "Żaglowa - AmberExpo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b22e"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6387837,
+				54.3825475
+			]
+		},
+		"properties" : {
+			"name" : "Żaglowa - AmberExpo",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b245"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6223419,
+				54.3922646
+			]
+		},
+		"properties" : {
+			"name" : "Kolonia Uroda",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b246"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6223995,
+				54.3926912
+			]
+		},
+		"properties" : {
+			"name" : "Kolonia Uroda",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b258"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6223641,
+				54.3964512
+			]
+		},
+		"properties" : {
+			"name" : "Grudziądzka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b257"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.622308,
+				54.3961043
+			]
+		},
+		"properties" : {
+			"name" : "Grudziądzka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b25a"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.626371,
+				54.4002419
+			]
+		},
+		"properties" : {
+			"name" : "Uczniowska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8fa"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6106785,
+				54.3871568
+			]
+		},
+		"properties" : {
+			"name" : "Legionów",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6109184,
+				54.3868051
+			]
+		},
+		"properties" : {
+			"name" : "Legionów",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b247"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6223718,
+				54.3881555
+			]
+		},
+		"properties" : {
+			"name" : "Kościuszki",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8ef"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6224301,
+				54.3881647
+			]
+		},
+		"properties" : {
+			"name" : "Kościuszki",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1fc"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6219698,
+				54.3840497
+			]
+		},
+		"properties" : {
+			"name" : "Mickiewicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8ee"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6218356,
+				54.3828655
+			]
+		},
+		"properties" : {
+			"name" : "Mickiewicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1fb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6205932,
+				54.3833594
+			]
+		},
+		"properties" : {
+			"name" : "Mickiewicza",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1fd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6146826,
+				54.3833947
+			]
+		},
+		"properties" : {
+			"name" : "Plac Komorowskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6143794,
+				54.3837859
+			]
+		},
+		"properties" : {
+			"name" : "Plac Komorowskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5c6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5908197,
+				54.387051
+			]
+		},
+		"properties" : {
+			"name" : "Wojska Polskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5907622,
+				54.3870742
+			]
+		},
+		"properties" : {
+			"name" : "Wojska Polskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b208"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.606207,
+				54.3917993
+			]
+		},
+		"properties" : {
+			"name" : "Żwirki i Wigury",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.605775,
+				54.3921364
+			]
+		},
+		"properties" : {
+			"name" : "Żwirki i Wigury",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f7"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6085095,
+				54.3896452
+			]
+		},
+		"properties" : {
+			"name" : "Bajana",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1f6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6081803,
+				54.3900483
+			]
+		},
+		"properties" : {
+			"name" : "Bajana",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6021074,
+				54.3942798
+			]
+		},
+		"properties" : {
+			"name" : "Jana Pawła II",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3af1f"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6014917,
+				54.3946981
+			]
+		},
+		"properties" : {
+			"name" : "Jana Pawła II",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20e"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5980318,
+				54.3967138
+			]
+		},
+		"properties" : {
+			"name" : "Startowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b20f"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5975689,
+				54.3970427
+			]
+		},
+		"properties" : {
+			"name" : "Startowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aec8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5946852,
+				54.3995594
+			]
+		},
+		"properties" : {
+			"name" : "Zaspa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aec9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5955688,
+				54.3998815
+			]
+		},
+		"properties" : {
+			"name" : "Zaspa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a8f6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5950553,
+				54.3992091
+			]
+		},
+		"properties" : {
+			"name" : "Zaspa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aec7"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5950486,
+				54.3991065
+			]
+		},
+		"properties" : {
+			"name" : "Zaspa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ec"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5915081,
+				54.4034644
+			]
+		},
+		"properties" : {
+			"name" : "Kołobrzeska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1ed"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5910432,
+				54.4042843
+			]
+		},
+		"properties" : {
+			"name" : "Kołobrzeska",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5850213,
+				54.3869262
+			]
+		},
+		"properties" : {
+			"name" : "Zamenhofa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5d4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5850928,
+				54.3869011
+			]
+		},
+		"properties" : {
+			"name" : "Zamenhofa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5d2"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5816527,
+				54.3883876
+			]
+		},
+		"properties" : {
+			"name" : "Zajezdnia",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5815611,
+				54.3884936
+			]
+		},
+		"properties" : {
+			"name" : "Zajezdnia",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a6eb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5781857,
+				54.3911187
+			]
+		},
+		"properties" : {
+			"name" : "Strzyża PKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a6f3"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5787749,
+				54.3908256
+			]
+		},
+		"properties" : {
+			"name" : "Strzyża PKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5776149,
+				54.3911985
+			]
+		},
+		"properties" : {
+			"name" : "Strzyża PKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5d1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5776677,
+				54.3911956
+			]
+		},
+		"properties" : {
+			"name" : "Strzyża PKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5c5"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5987318,
+				54.3821912
+			]
+		},
+		"properties" : {
+			"name" : "Galeria Bałtycka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aecd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5987844,
+				54.3822081
+			]
+		},
+		"properties" : {
+			"name" : "Galeria Bałtycka",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5c4"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6030332,
+				54.3798817
+			]
+		},
+		"properties" : {
+			"name" : "Klonowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aece"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.6030727,
+				54.3799042
+			]
+		},
+		"properties" : {
+			"name" : "Klonowa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b1d1"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5737987,
+				54.3652516
+			]
+		},
+		"properties" : {
+			"name" : "Brętowo PKM",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5ce"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5686061,
+				54.3988472
+			]
+		},
+		"properties" : {
+			"name" : "Bażyńskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeda"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5716655,
+				54.3957165
+			]
+		},
+		"properties" : {
+			"name" : "Uniwersytet",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cf"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5717146,
+				54.3957288
+			]
+		},
+		"properties" : {
+			"name" : "Uniwersytet",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed6"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5680839,
+				54.399385
+			]
+		},
+		"properties" : {
+			"name" : "Bażyńskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cc"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.563912,
+				54.4050693
+			]
+		},
+		"properties" : {
+			"name" : "Derdowskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cd"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5656803,
+				54.4027016
+			]
+		},
+		"properties" : {
+			"name" : "Tetmajera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5656167,
+				54.4026988
+			]
+		},
+		"properties" : {
+			"name" : "Tetmajera",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cb"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5671004,
+				54.4100121
+			]
+		},
+		"properties" : {
+			"name" : "Oliwa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3b084"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5671505,
+				54.4096362
+			]
+		},
+		"properties" : {
+			"name" : "Oliwa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5c9"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5659212,
+				54.4099191
+			]
+		},
+		"properties" : {
+			"name" : "Oliwa",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5ca"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5629806,
+				54.4083748
+			]
+		},
+		"properties" : {
+			"name" : "Obrońców Westerplatte",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed8"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5629497,
+				54.4082787
+			]
+		},
+		"properties" : {
+			"name" : "Obrońców Westerplatte",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	},
+	{
+		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed7"),
+		"type" : "Feature",
+		"geometry" : {
+			"type" : "Point",
+			"coordinates" : [
+				18.5636256,
+				54.405583
+			]
+		},
+		"properties" : {
+			"name" : "Derdowskiego",
+			"type" : "tram_stop",
+			"kind" : "railway"
+		}
+	}
+]
+}

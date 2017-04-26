@@ -1,104 +1,171 @@
 ---
 title: "GEO"
-output: github_document
+output:
+  html_notebook: default
+  html_document: default
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+Przedstawienie danych
+---------------------
+
+###Przystanki tramwajowe i autobusowe w Polsce
+
+Prezentowany zbiór zawiera 64991 przystanki tramwajowe oraz autobusowe znajdujące się na terenie Polski.
+
+Dane pochodzą ze strony OpenStreetMap -> [Źródło](http://download.geofabrik.de/europe/poland-latest.osm.bz2)
+
+Powyższy zbiór danych dotyczących Polski, został odfiltrowany przy użyciu narzędzia [*Osmfilter*](http://wiki.openstreetmap.org/wiki/Osmfilter)
+
+>Przykładowa komenda służąca do odfiltrowania pożądanych danych - na przykład wszystkich przystanków tramwajowych w Polsce:
+>```{r}
+.\osmfilter poland-latest.osm --keep="railway=tram_stop" >railway_tram_stop.osm
 ```
-## Przedstawienie danych
 
-## Przystanki tramwajowe w Polsce
-Prezentowany zbiór zawiera 3783 przystanki tramwajowe znajdujące się na terenie Polski.
+W celu uzyskania interesujących danych na potrzeby tego zadania zastosowałem następujące filtry:
 
-```json
+* railway=tram_stop
+* highway=bus_stop
+
+Następnie dokonałem obróbki oraz scalenia otrzymanych danych przy użyciu własnej aplikacji konsolowej napisanej w technologii .NET -> [Zobacz]()
+
+Dzięki wspomnianej aplikacji dokonałem także konwersji danych z formatu xml do formatu CSV.
+Format danych:
+
+| id         |  lon        |  lat        |  name             |  type      |  kind        | 
+|------------|-------------|-------------|-------------------|------------|--------------| 
+| 27308502   |  16.9168807 |  52.4639683 | Os. Sobieskiego   |  tram_stop |  railway     | 
+| 3028557289 |  23.4837069 |  51.1446014 | Okszowska 01      |  bus_stop  |  highway     | 
+
+Tak przygotowane dane, mogłem z łatwością przekonwertować do formatu *GeoJSON*, przy [aplikacji internetowej](http://www.convertcsv.com)
+
+###Przykładowy obiekt
+
+Poniżej przedstawiam wygenerowany przykładowy obiekt *GeoJSON*
+``` {r}
 {
   "type": "Feature",
   "geometry": {
-     "type": "Point",
-     "coordinates":  [  16.9168807, 52.4639683 ]
+    "type": "Point",
+    "coordinates":  [ 16.9176843,52.4637629 ]
   },
   "properties": {
-  "id":27308502,
-  "name":"\"Os. Sobieskiego\"",
-  "type":" tram_stop"
+  "id":27308508,
+  "name":"Os. Sobieskiego",
+  "type":"tram_stop",
+  "kind":"railway"
   }
 }
 ```
+_______
+##Obsługa w MongoDB
 
-## Mapa
-Prezentacja całego zbioru danych na mapie:
-
-<script src="https://embed.github.com/view/geojson/dbuszman/NoSQL/master/GeoJSON/tram_stop_geo.geojson"></script>
-
-## Obsługa w MongoDB
 Importowanie danych geojson:
 
-```sh
+``` {r}
 mongod.exe
 
-mongoimport.exe --drop -d test -c tramStops --jsonArray < tram_stop_geo.geojson"
+mongoimport.exe /c transport /jsonArray < transport.geojson
 ```
 
 Dodanie indeksów:
 
-```sh
-db.tramStops.ensureIndex({"geometry" : "2dsphere"})
+``` {r}
+> db.transport.ensureIndex({"geometry" : "2dsphere"})
 ```
 
-Przykładowe dane po zaimportowaniu:
-
-```sh
-db.tramStops.findOne()
-```
-
-```json
-{
-        "_id" : ObjectId("58db2128414dd20a21a927a1"),
-        "type" : "Feature",
-        "geometry" : {
-                "type" : "Point",
-                "coordinates" : [
-                        16.9168807,
-                        52.4639683
-                ]
-        },
-        "properties" : {
-                "id" : 27308502,
-                "name" : "\"Os. Sobieskiego\"",
-                "type" : " tram_stop"
-        }
-}
+Zliczanie obiektów ze względu na typ:
+```{r}
+> db.transport.find( { "properties.type": "tram_stop"} ).count()
+3796
+> db.transport.find( { "properties.type": "bus_stop"} ).count()
+61195
 ```
 
 Usunięcie pola id wewnątrz properties:
 
-```sh
-db.tramStops.updateMany({type: "Feature"}, {$unset: {"properties.id":""}})
+``` {r}
+> db.tramStops.updateMany({type: "Feature"}, {$unset: {"properties.id":""}})
+```
+
+Obecnie przykładowy obiekt w bazie wygląda następująco:
+
+```{r}
+> db.transport.findOne()
+{
+  "_id" : ObjectId("58ffdc581a6a3b44f5d3a4fc"),
+  "type" : "Feature",
+  "geometry" : {
+     "type" : "Point",
+     "coordinates" : [
+        16.9168807,
+        52.4639683
+     ]
+  },
+  "properties" : {
+     "name" : "Os. Sobieskiego",
+     "type" : "tram_stop",
+     "kind" : "railway"
+  }
+}
 ```
 
 Wyszukuję 10 przystanków tramwajowych, które znajdują się najbliżej środka Wydziału Matematyki, Fizyki i Informatyki, Uniwersytetu Gdańskiego
 
-współrzędne (54° 23’ 45.2292” N, 18° 34’ 23.1852” E)
+* współrzędne (54° 23’ 45.2292” N, 18° 34’ 23.1852” E)
 
-W pliku find_nearest_stops_command.js zapisuję następującą komendę:
-
-```sh
-printjson( db.tramStops.find({ "geometry": {$near: {$geometry: {type: "Point", coordinates: [18.573107, 54.395897]}}}}, {_id: 0}).limit(10).toArray() )
+W pliku nearest_tram_stops_to_UG_command.js zapisuję następującą komendę:
+```{r}
+printjson( db.transport.find({ $and: [{ "properties.type": "tram_stop"}, { "geometry": {$near: {$geometry: {type: "Point", coordinates: [18.573107, 54.395897]}}}}]}).limit(10).toArray() )
 ```
 
-A następnie ją wywołuję, zapisująć wynik w pliku nearest_stops.json:
+Dzięki niej, najpierw wybieram spośród wszystkich danych tylko te, będące przystankami tramwajowymi a następnie odfiltrowuję je względem zadanego punktu.
 
-```sh
-mongo.exe test find_nearest_stops_command.js > nearest_stops.json
+Wywołuję powyższą komendę, zapisując wynik w pliku nearest\_stops.json:
+
+``` {r}
+mongo.exe --quiet test nearest_tram_stops_to_UG_command.js > nearest_stops.json
 ```
 
 Przekształcam plik .json w plik .geojson
 
-```sh
+``` {r}
 type nearest_stops.json | findstr /v MongoDB | findstr /v mongo > nearest_stops_geo.geojson
 ```
 
 Przedstawienie wyniku na mapie:
 
 <script src="https://embed.github.com/view/geojson/dbuszman/NoSQL/master/GeoJSON/nearest_stops_geo.geojson"></script>
+
+Poza wyszukiwaniem względem punktu o zadanych współrzędnych możliwe jest także wyszukiwanie względem obszaru, np. prostokąta. W poniższym przykładzie wyszukuję wszystkie przystanki tramwajowe znajdujące się w województwie pomorskim, a dokładniej w prostokącie opisanym na granicach województwa.
+
+W pliku pomeranian_tram_stops_command.js zapisuję następującą komendę:
+
+```{r}
+printjson( db.transport.find( { $and: [{ "properties.type": "tram_stop"}, { "geometry" :
+           { $geoWithin :
+             { $geometry :
+               { type : "Polygon" ,
+                 coordinates : [ [
+                   [ 16.4240 , 54.5008 ] ,
+                   [ 19.3855 , 54.5008 ] ,
+                   [ 19.3855 , 53.2927 ] ,
+                   [ 16.4240 , 54.5008 ]
+                 ] ]
+               } } } } ]}).toArray() )
+```
+
+Wywołuję powyższą komendę, zapisując wynik w pliku nearest\_stops.json:
+
+``` {r}
+mongo.exe --quiet test pomeranian_tram_stops_command.js > pomeranian_tram_stops.json
+```
+
+Przekształcam plik .json w plik .geojson
+
+``` {r}
+type pomeranian_tram_stops.json | findstr /v MongoDB | findstr /v mongo > pomeranian_tram_stops_geo.geojson
+```
+
+Przedstawienie wyniku na mapie:
+
+<script src="https://embed.github.com/view/geojson/dbuszman/NoSQL/master/GeoJSON/pomeranian_tram_stops_geo.geojson"></script>
