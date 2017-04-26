@@ -2,7 +2,6 @@
    "type": "FeatureCollection",
    "features": [
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cf"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -18,7 +17,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3aeda"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -34,7 +32,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5ce"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -50,7 +47,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed6"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -66,7 +62,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed5"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -82,7 +77,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5d1"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -98,7 +92,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a6eb"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -114,7 +107,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a6f3"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -130,7 +122,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3a5cd"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
@@ -146,7 +137,6 @@
 		}
 	},
 	{
-		"_id" : ObjectId("58ffdc581a6a3b44f5d3aed9"),
 		"type" : "Feature",
 		"geometry" : {
 			"type" : "Point",
