@@ -14,4 +14,4 @@ Dariusz Buszman
 ## Lista zadań:
 ------------
 
-1.  [Zadanie GEO](geo.nb) - prezentowanie zbioru przystanków tramwajowych i autobusowych w Polsce (na bazie openstreetmap.org)
+1.  [Zadanie GEO](geo.nb.html) - prezentowanie zbioru przystanków tramwajowych i autobusowych w Polsce (na bazie openstreetmap.org)
